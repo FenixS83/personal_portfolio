@@ -1,0 +1,95 @@
+
+
+root {
+    --one: #ababab;
+    --two: #607d8b;
+    --three: #000b4f;
+    --four: #2e5090;
+    --five: #829cd0;
+    --six: #ebebeb;
+    --seven: #323232;
+
+}
+
+
+
+html {
+    background: #ababab;
+    color: #323232;
+
+}
+
+.about p {
+    margin: 20px;
+    width: 50vw;
+}
+
+img {
+    width: 300px;
+    position: fixed;
+    right: 30px;
+}
+
+.links {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+a {
+    text-decoration: none;
+    color: #323232;
+}
+
+.directors {
+    text-decoration: none;
+    margin: 10px;;
+    position: relative;
+    border: 1px solid #323232;
+    height: 15px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #607d8b;
+    animation-name: stretch;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+.directors p {
+    text-decoration: none;
+    padding-bottom: 0;
+    padding-left: 4px;
+    margin-bottom: 3px;
+    font-size: 10px;
+    vertical-align: center;
+}
+
+h1 {
+    margin: 20px;
+    background-color: none;
+    font-size: 54px;
+}
+
+@keyframes stretch {
+    0% {
+        transform: scale(0.3);
+        background-color: #ababab;
+        border-radius: 100%;
+        
+    }
+    50% {
+        background-color: #607d8b;
+    }
+    100% {
+        transform: scale(2.8);
+        background-color: #829cd0;
+    }
+}
+

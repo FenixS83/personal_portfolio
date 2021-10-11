@@ -1,0 +1,169 @@
+root {
+    --one: #ababab;
+    --two: #607d8b;
+    --three: #000b4f;
+    --four: #2e5090;
+    --five: #829cd0;
+    --six: #ebebeb;
+    --seven: #323232;
+    
+}
+.element {
+    position: relative;
+    background: linear-gradient(90deg, #ababab, #272727);
+    border: 3px solid #323232;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    background-color: #607d8b;
+    animation-name: stretch;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 20px;
+    background-color: none;
+    font-size: 14px;
+}
+
+@keyframes stretch {
+    0% {
+        transform: scale(0.3);
+        background-color: #607d8b;
+        border-radius: 100%;
+        
+    }
+    50% {
+        background-color: #829cd0;
+    }
+    100% {
+        transform: scale(2.8);
+        background-color: #ababab;
+    }
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #2e5090;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 40px; */
+}
+
+
+
+
+
+/* LINE-SPECIFIC STYLES */
+.typewriter1{
+    padding-left: 60px;
+    padding-top: 30px;
+    width: 0;
+    color: #fff;
+    font-family: 'Share Tech Mono', monospace;;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid none; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 2.5s steps(30, end),
+    blink-caret .5s step-end 2;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+.typewriter2{
+    padding-right: 18px;
+    width: 0;
+    color: #fff;
+    font-family: 'Share Tech Mono', monospace;;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid none; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .09em; /* Adjust as needed */
+    animation: 
+    typing 2.5s steps(30, end),
+    blink-caret .5s step-end 2;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+.typewriter3{
+    padding-left: 70px;
+    width: 0;
+    color: #fff;
+    font-family: 'Share Tech Mono', monospace;;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid none; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 2.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+    animation-delay: 7.5s;
+    animation-fill-mode: forwards;
+}
+
+/* The typing effect */
+@keyframes typing {
+    0% {
+    }
+    100% {
+        visibility: visible;
+    }
+    
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ababab }
+}
+
+
+
+.element:before, .element:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(90deg, #acb0b2,#5e6c85, #b6bbbe, #909fb6,#cfd2d4, #b6bbbe, #6f7d95, 
+    #c3c7c9, #a1b0c6,#acb0b2, #b2c1d6);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: steam 30s linear infinite;
+}
+
+@keyframes steam {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.element:after {
+    filter: blur(50px);
+}
