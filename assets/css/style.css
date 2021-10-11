@@ -93,3 +93,24 @@ h1 {
     }
 }
 
+
+
+.contactLinks {
+    display: flex;
+    position: fixed;
+    bottom: 35px;
+    margin: 35px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+
+
+
+
+
+
