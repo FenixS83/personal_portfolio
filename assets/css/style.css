@@ -20,14 +20,19 @@ html {
 }
 
 .about p {
+    float:left;
     margin: 20px;
-    width: 50vw;
+    width: 45vw;
 }
 
-img {
+.fenix {
+    position: sticky;
+    float: right;
+    height: auto;
+    word-wrap: normal;
     width: 300px;
-    position: fixed;
-    right: 30px;
+    right: 20px;
+    
 }
 
 .links {
@@ -45,7 +50,7 @@ a {
 
 .directors {
     text-decoration: none;
-    margin: 10px;;
+    margin: 10px;
     position: relative;
     border: 1px solid #323232;
     height: 15px;
@@ -65,8 +70,7 @@ a {
 .directors p {
     text-decoration: none;
     padding-bottom: 0;
-    padding-left: 4px;
-    margin-bottom: 3px;
+    margin: auto;
     font-size: 10px;
     vertical-align: center;
 }
@@ -96,10 +100,8 @@ h1 {
 
 
 .contactLinks {
+    margin-top: 35px;
     display: flex;
-    position: fixed;
-    bottom: 35px;
-    margin: 35px;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
@@ -108,9 +110,20 @@ h1 {
 
 
 
+.logoBanner {
+    position: sticky;
+    height: auto;
+    width: 100%;
+
+}
 
 
 
+.businessCard {
+    position: sticky;
+    height: auto;
+    width: 100%;
+}
 
 
 
