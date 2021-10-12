@@ -16,6 +16,7 @@ root {
 html {
     background: #ababab;
     color: #323232;
+    font-family: 'Share Tech Mono', monospace;
 
 }
 
@@ -125,5 +126,25 @@ h1 {
     width: 100%;
 }
 
+#frame {
+    display: block;
+    margin: auto;
+    border: 3px solid var(--seven);
+    overflow: hidden;
+    width: 95%;
+    height: 45vh
+}
 
+.captions {
+    margin: auto;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    font-size: 20px;
+}
 
+.cards {
+    display: block;
+    border-top: 2px solid var(--three);
+    border-bottom: 2px solid var(--three);
+}
