@@ -17,6 +17,9 @@ Create a personal portfolio with links for contact info, projects, GitHub, Linke
 ### Explanation of Task
 I used the knowledge that I've gained so far to start my Personal Portfolio.  I've also included ways to contact me as well as a picture.  There are links to my GitHub repositories as well as screenshots of some of the projects that I'm more proud of at this point in time.  This version is just the beginning version and will be updated many many times in the future as my knowledge level increases.
 
+### Benefit of Personal Portfolio
+Future employers and collaborators will want to look at my work and get a quick sampling of what I am capabale of. A personal portfolio does that.  At this time I have just created the first version. I intend to update it as I can to better showcase what I learn as I learn it.  
+
 ### 
 
 
