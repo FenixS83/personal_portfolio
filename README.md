@@ -30,6 +30,15 @@ This project allowed me to use a number of sources that I had never used before.
 ### Acknowledgments
 I would also like to thank Chris Coyier at www.css-tricks.com for inspritation for the welcome screen and nav buttons.
 
+### Screenshot of live Portfolio
+
+
+
+
+### Link to live website
+
+
+
 
 
 
