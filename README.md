@@ -20,23 +20,13 @@ I used the knowledge that I've gained so far to start my Personal Portfolio.  I'
 ### Benefit of Personal Portfolio
 Future employers and collaborators will want to look at my work and get a quick sampling of what I am capabale of. A personal portfolio does that.  At this time I have just created the first version. I intend to update it as I can to better showcase what I learn as I learn it.  
 
-### 
+### Sources used for Pesonal Portfolio
+This project allowed me to use a number of sources that I had never used before.
+    For the color scheme I used www.schemecolor.com
+    The resume was created at www.resume-now.com
+    The logo and slogan were both created at www.brandcrowd.com
 
 
-
-
-
-
-
-Personal Portfolio
-
-
-
-
-sources:
-color scheme from www.schemecolor.com
-resume from www.resume-now.com
-logo and slogan from www.brandcrowd.com
 
 
 Thanks to Chris Coyier at www.css-tricks.com for inspritation for welcome screen and nav buttons
