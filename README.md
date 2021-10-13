@@ -27,6 +27,14 @@ This project allowed me to use a number of sources that I had never used before.
     The logo and slogan were both created at www.brandcrowd.com
 
 
+### Acknowledgments
+I would also like to thank Chris Coyier at www.css-tricks.com for inspritation for the welcome screen and nav buttons.
 
 
-Thanks to Chris Coyier at www.css-tricks.com for inspritation for welcome screen and nav buttons
+
+
+
+
+
+
+
