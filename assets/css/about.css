@@ -1,0 +1,174 @@
+
+
+root {
+    --one: #ababab;
+    --two: #607d8b;
+    --three: #000b4f;
+    --four: #2e5090;
+    --five: #829cd0;
+    --six: #ebebeb;
+    --seven: #323232;
+
+}
+
+
+
+html {
+    background: #ababab;
+    color: #323232;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+
+.about p {
+    float:left;
+    top: 3vh;
+    margin: 20px;
+    width: 45vw;
+}
+
+.fenix {
+    position: sticky;
+    float: right;
+    height: auto;
+    word-wrap: normal;
+    width: 45vw;
+    right: 20px;
+    
+}
+
+.links {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+a {
+    text-decoration: none;
+    color: #323232;
+}
+
+.directors {
+    text-decoration: none;
+    margin: 10px;
+    position: relative;
+    border: 1px solid #323232;
+    height: 2vh;
+    width: 7vw;
+    margin: 0 auto;
+    background-color: #607d8b;
+    animation-name: stretch;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+.directors p {
+    text-decoration: none;
+    padding-bottom: 0;
+    margin: auto;
+    font-size: 10px;
+    vertical-align: center;
+}
+
+h1 {
+    margin: 20px;
+    background-color: none;
+    font-size: 54px;
+}
+
+@keyframes stretch {
+    0% {
+        transform: scale(0.3);
+        background-color: #ababab;
+        border-radius: 100%;
+        
+    }
+    50% {
+        background-color: #607d8b;
+    }
+    100% {
+        transform: scale(2.8);
+        background-color: #829cd0;
+    }
+}
+
+
+
+.contactLinks {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+.logoBanner {
+    position: sticky;
+    height: auto;
+    width: 100%;
+
+}
+
+
+
+.businessCard {
+    margin-top: 30px;
+    position: sticky;
+    height: auto;
+    width: 100%;
+}
+
+#frame {
+    display: block;
+    margin: auto;
+    border: 3px solid var(--seven);
+    overflow: hidden;
+    width: 95%;
+    height: 45vh
+}
+
+.captions {
+    margin: auto;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    font-size: 20px;
+}
+
+.cards img {
+    margin: auto;
+    width: 95%;
+    height: auto;
+    display: block;
+    border-top: 2px solid var(--three);
+    border-bottom: 2px solid var(--three);
+}
+
+.cardlinks {
+    color: var(--four);
+}
+
+#contact {
+    margin-bottom: 5vh;
+}
+
+@media only screen and (min-width: 1020px) {
+    .about p {
+        width: 64vw;
+        top: 15vh;
+    }
+
+    .fenix {
+        width: 30vw;
+    }
+}

@@ -20,21 +20,6 @@ html {
 
 }
 
-.about p {
-    float:left;
-    margin: 20px;
-    width: 45vw;
-}
-
-.fenix {
-    position: sticky;
-    float: right;
-    height: auto;
-    word-wrap: normal;
-    width: 300px;
-    right: 20px;
-    
-}
 
 .links {
     margin-top: 35px;
@@ -44,9 +29,13 @@ html {
 
 }
 
+.repo {
+    text-decoration: none;
+    color:  var(--four);
+}
 a {
     text-decoration: none;
-    color: #323232;
+    color:  var(--seven);
 }
 
 .directors {
@@ -120,19 +109,15 @@ h1 {
 
 
 
-.businessCard {
-    position: sticky;
-    height: auto;
-    width: 100%;
-}
 
-#frame {
-    display: block;
+
+.cards img {
     margin: auto;
-    border: 3px solid var(--seven);
-    overflow: hidden;
     width: 95%;
-    height: 45vh
+    height: auto;
+    display: block;
+    border-top: 2px solid var(--three);
+    border-bottom: 2px solid var(--three);
 }
 
 .captions {
@@ -143,8 +128,4 @@ h1 {
     font-size: 20px;
 }
 
-.cards {
-    display: block;
-    border-top: 2px solid var(--three);
-    border-bottom: 2px solid var(--three);
-}
+
