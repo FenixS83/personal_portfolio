@@ -1,3 +1,7 @@
+This Portfolio is no longer in use, a new one has been created to replace it. It is being kept active to show code and skill improvment.
+
+
+
 # personal_portfolio
 
 ## Contents
